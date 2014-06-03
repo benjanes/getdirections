@@ -1,0 +1,25 @@
+#map {
+	float: left;
+	margin-right: 15px;
+}
+#toprow {
+	font-size: 115%;
+	font-weight: bold;
+}
+.totals {
+	font-weight: bold;
+	text-align: right;
+}
+#instructions {
+	border-style: solid;
+	border-width: thin;
+	border-color: #C0C0C0;
+	border-radius: 10px;
+	border-collapse: 1px 0px;
+}
+.maintable:nth-child(even) {
+	background-color: #E0E0E0;
+}
+.maintable:nth-child(odd) {
+	background-color: #C0C0C0;
+}
