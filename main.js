@@ -53,6 +53,7 @@ $(document).ready(function() {
 						origin: [latitude, longitude],
 						destination: [home.lat, home.lng],
 						travelMode: 'driving',
+						unitSystem: 'imperial',
 						step: function(e){
 							$('#instructions').append('<tr class="maintable"><td>' + e.instructions + '</td><td> '+ e.distance.text + '</td></tr>');
 							map.drawPolyline({
